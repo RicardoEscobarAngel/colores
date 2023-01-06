@@ -54,7 +54,9 @@ p, h1, h2, h3, h4, h5, h6 {
     border-radius: 999px;
     opacity: 0.8;
     position: absolute;
-    backdrop-filter: blur(6px);}
+    backdrop-filter: blur(6px);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
 
 .triangle {
     width: 350px;
@@ -67,7 +69,8 @@ p, h1, h2, h3, h4, h5, h6 {
     position: absolute;
     clip-path: polygon(50% 0, 100% 100%, 0 100%);
     opacity: 0.8;
-    backdrop-filter: blur(6px);}
+    backdrop-filter: blur(6px);
+}
 
 .square {
     width: 140px;
@@ -78,7 +81,9 @@ p, h1, h2, h3, h4, h5, h6 {
 .square_const {
     position: absolute;
     opacity: 0.8;
-    backdrop-filter: blur(6px);}
+    backdrop-filter: blur(6px);
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
 
 .rectangle {
     width: 140px;
@@ -90,7 +95,9 @@ p, h1, h2, h3, h4, h5, h6 {
 .rectangle_const {
     position: absolute;
     opacity: 0.8;
-    backdrop-filter: blur(6px);}
+    backdrop-filter: blur(6px);
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
 
 
 #action {
