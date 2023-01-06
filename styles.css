@@ -1,0 +1,108 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+#root, #__next {
+    isolation: isolate;
+}
+
+.background {
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background_const {
+    height: 100vh;
+    width: 100vw;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+.circle_const {
+    border-radius: 999px;
+    opacity: 0.8;
+    position: absolute;
+    backdrop-filter: blur(6px);}
+
+.triangle {
+    width: 350px;
+    height: 300px;
+    margin-bottom: 97px;
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+
+.triangle_const {
+    position: absolute;
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    opacity: 0.8;
+    backdrop-filter: blur(6px);}
+
+.square {
+    width: 140px;
+    height: 140px;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+.square_const {
+    position: absolute;
+    opacity: 0.8;
+    backdrop-filter: blur(6px);}
+
+.rectangle {
+    width: 140px;
+    height: 70px;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    margin-top: 70px;
+}
+
+.rectangle_const {
+    position: absolute;
+    opacity: 0.8;
+    backdrop-filter: blur(6px);}
+
+
+#action {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    height: 100vh;
+    width: 100vw;
+}
+
+#action:hover {
+    cursor: pointer;
+}
+
